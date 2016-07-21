@@ -11,7 +11,7 @@ import sys
 path = "/Users/dphillip/Desktop/Workouts/"
 logdir = str(datetime.date.today()) 
 workouts = path + "/workouts.list"
-yes_answers = ['y', 'Y', 'yes', 'YES'] 
+yesAnswers = ['y', 'Y', 'yes', 'YES'] 
 
 def addNewWorkout():
 	print('\nInput text and end with Ctrl-d on a newline\n')
